@@ -9,9 +9,6 @@ File path/name is hardcoded (will only work with phonenumbers.txt)
 
 
 
-
-
-
 How to run
 Clone the repo
 Navigate to directory where repo was saved
