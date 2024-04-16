@@ -25,7 +25,7 @@ class PhoneNumberParser:
     
 
 def main():
-    parser = PhoneNumberParser('C:/Users/fun/phonenumbers.txt')
+    parser = PhoneNumberParser(sys.argv[1])
     parser.parse_phone_numbers()
     parsed_numbers = parser.get_phone_numbers()
     for number, details in parsed_numbers.items():
